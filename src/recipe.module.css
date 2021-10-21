@@ -8,6 +8,20 @@
     background: white;
     align-items: center;
     min-width: 40%;
+    padding: 0px 30px 30px 30px;
+    max-width: 480px;
+    position: relative;
+    top: 0;
+    transition: all .2s linear;
+    cursor: pointer;
+}
+
+.recipe:hover {
+    background: #5e4794;
+    color: #fff;
+    width: 500px;
+    top: -10px;
+    
 }
 
 .image {
