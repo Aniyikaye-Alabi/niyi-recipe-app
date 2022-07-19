@@ -27,7 +27,8 @@ function App() {
       const data = await response.json();
       setRecipes(data.hits);
       //console.log(data.hits);
-    }
+    };
+    getRequest();
   }, [query]);
 
   
